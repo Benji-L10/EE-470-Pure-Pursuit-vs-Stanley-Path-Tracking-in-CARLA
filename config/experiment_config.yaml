@@ -1,0 +1,31 @@
+project:
+  name: "Pure Pursuit vs Stanley Path Tracking in CARLA"
+
+vehicle:
+  wheelbase: 2.8
+  max_steer_deg: 30
+
+controllers:
+  pure_pursuit:
+    lookahead_gain: 0.4
+    min_lookahead: 3.0
+
+  stanley:
+    k: 0.8
+    ks: 0.2
+
+experiments:
+  speeds_mps:
+    - 5
+    - 10
+    - 15
+
+  path_geometries:
+    - smooth_curvy
+    - sharp_turns
+
+logging:
+  output_dir: "data"
+
+plots:
+  output_dir: "plots"
