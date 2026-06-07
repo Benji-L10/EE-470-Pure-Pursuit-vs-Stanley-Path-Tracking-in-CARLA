@@ -300,6 +300,11 @@ def parse_args() -> argparse.Namespace:
 
 def run_experiment(args: argparse.Namespace) -> dict[str, Any]:
     path = load_path(args.path_csv.resolve())
+
+    print("Path points:", len(path))
+    print("First point:", path[0])
+    print("Last point:", path[-1])
+    
     path_progress = cumulative_distance(path)
     controller = build_controller(args)
     speed_controller = PIController(kp=args.speed_kp, ki=args.speed_ki)
@@ -331,6 +336,17 @@ def run_experiment(args: argparse.Namespace) -> dict[str, Any]:
 
         world_map = world.get_map()
         spawn_transform = choose_spawn_transform(world_map, path, args.spawn_index)
+
+        print(
+            "Spawn:",
+            spawn_transform.location.x,
+            spawn_transform.location.y
+        )
+        print(
+            "Path start:",
+            path[0][0],
+            path[0][1]
+        )
 
         blueprint_library = world.get_blueprint_library()
         matching_blueprints = blueprint_library.filter(args.vehicle_filter)
