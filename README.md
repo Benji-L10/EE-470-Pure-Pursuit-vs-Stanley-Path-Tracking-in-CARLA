@@ -525,14 +525,3 @@ Possible extensions include:
 * surrounding traffic and dynamic obstacles;
 * repeated statistical trials; and
 * comparison with model predictive control.
-
-## Course Deliverables
-
-The final project deliverables include:
-
-* this GitHub repository;
-* Python source code;
-* generated experiment data;
-* controller comparison plots;
-* a 3-minute video presentation; and
-* a four-page IEEE conference-format report.
