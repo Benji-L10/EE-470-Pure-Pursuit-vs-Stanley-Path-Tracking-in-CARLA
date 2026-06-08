@@ -1,0 +1,19 @@
+{
+  "controller": "pure_pursuit",
+  "path_name": "sharp_turns",
+  "target_speed_mps": 5.0,
+  "samples": 1232,
+  "simulated_time_s": 61.550000000000004,
+  "termination_reason": "goal_reached",
+  "collision_impulse": 0.0,
+  "mean_abs_cte_m": 0.05108928863142414,
+  "rms_cte_m": 0.11681696311872576,
+  "max_abs_cte_m": 0.5349536848035323,
+  "mean_abs_heading_error_rad": 0.03662503083719701,
+  "max_abs_heading_error_rad": 0.3926205963792526,
+  "mean_speed_mps": 4.947196400086252,
+  "mean_abs_speed_error_mps": 0.06532619977936141,
+  "mean_abs_steering_rate_rad_s": 0.07088850532731061,
+  "rms_steering_rate_rad_s": 0.28955441393198517,
+  "csv_path": "D:\\Cal Poly\\EE 470 Spring 2026\\EE-470-Pure-Pursuit-vs-Stanley-Path-Tracking-in-CARLA\\data\\sharp_turns\\pure_pursuit_5ms.csv"
+}

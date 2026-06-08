@@ -1,0 +1,105 @@
+{
+  "total_requested": 12,
+  "total_attempted": 12,
+  "successes": 12,
+  "failures": 0,
+  "elapsed_wall_time_s": 116.9976327419281,
+  "runs": [
+    {
+      "controller": "pure_pursuit",
+      "path": "smooth_curvy",
+      "speed_mps": 5.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 10.832033395767212
+    },
+    {
+      "controller": "stanley",
+      "path": "smooth_curvy",
+      "speed_mps": 5.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 10.662055730819702
+    },
+    {
+      "controller": "pure_pursuit",
+      "path": "smooth_curvy",
+      "speed_mps": 10.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 7.6919097900390625
+    },
+    {
+      "controller": "stanley",
+      "path": "smooth_curvy",
+      "speed_mps": 10.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 8.09429407119751
+    },
+    {
+      "controller": "pure_pursuit",
+      "path": "smooth_curvy",
+      "speed_mps": 15.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 7.251439094543457
+    },
+    {
+      "controller": "stanley",
+      "path": "smooth_curvy",
+      "speed_mps": 15.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 7.054140090942383
+    },
+    {
+      "controller": "pure_pursuit",
+      "path": "sharp_turns",
+      "speed_mps": 5.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 9.170368671417236
+    },
+    {
+      "controller": "stanley",
+      "path": "sharp_turns",
+      "speed_mps": 5.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 8.284029245376587
+    },
+    {
+      "controller": "pure_pursuit",
+      "path": "sharp_turns",
+      "speed_mps": 10.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 6.701819658279419
+    },
+    {
+      "controller": "stanley",
+      "path": "sharp_turns",
+      "speed_mps": 10.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 6.898133754730225
+    },
+    {
+      "controller": "pure_pursuit",
+      "path": "sharp_turns",
+      "speed_mps": 15.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 6.097644567489624
+    },
+    {
+      "controller": "stanley",
+      "path": "sharp_turns",
+      "speed_mps": 15.0,
+      "status": "success",
+      "return_code": 0,
+      "wall_time_s": 6.248738050460815
+    }
+  ]
+}

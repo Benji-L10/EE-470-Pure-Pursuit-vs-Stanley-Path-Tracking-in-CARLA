@@ -1,0 +1,19 @@
+{
+  "controller": "pure_pursuit",
+  "path_name": "smooth_curvy",
+  "target_speed_mps": 15.0,
+  "samples": 710,
+  "simulated_time_s": 35.45,
+  "termination_reason": "goal_reached",
+  "collision_impulse": 0.0,
+  "mean_abs_cte_m": 0.4020508985953878,
+  "rms_cte_m": 0.8192836993128747,
+  "max_abs_cte_m": 3.3495068554353966,
+  "mean_abs_heading_error_rad": 0.08751435330265465,
+  "max_abs_heading_error_rad": 0.6873784950367572,
+  "mean_speed_mps": 14.09986771988742,
+  "mean_abs_speed_error_mps": 0.9006600510526196,
+  "mean_abs_steering_rate_rad_s": 0.20251292310364638,
+  "rms_steering_rate_rad_s": 0.6516058022340996,
+  "csv_path": "D:\\Cal Poly\\EE 470 Spring 2026\\EE-470-Pure-Pursuit-vs-Stanley-Path-Tracking-in-CARLA\\data\\smooth_curvy\\pure_pursuit_15ms.csv"
+}
